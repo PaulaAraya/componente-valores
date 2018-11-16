@@ -1,0 +1,263 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
+
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo de componente Plan */
+.plan-contenedor {
+    max-width: 300px;
+    height: 590px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #f2f2f2;
+}
+
+.descriptions {
+    max-width: 300px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.descriptions h1 {
+    color: #ffffff;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 0;
+    line-height: 1;
+}
+
+.descriptions h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.descriptions h2 strong {
+    color: #e50515;
+}
+
+.descriptions h3 {
+    text-align: center;
+    color: #222;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5;
+
+}
+
+.descriptions h3 strong {
+    color: #e50515;
+}
+
+.descriptions h4 {
+    text-align: center;
+    font-size: 1.19rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.descriptions h5 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #666666;
+    margin: 20px;
+}
+
+.descriptions p {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.descriptions p strong {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #e50515;
+    margin: 0;
+}
+
+.rectangulo-rojo {
+    background-color: #e50515;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+    border: 1px solid #e50515;
+}
+
+.redes-sociales {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+li {
+    list-style: none;
+}
+
+.lista-oferta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.btnTab {
+    width: 150px;
+    height: 46px;
+    padding: 0;
+    margin: 0;
+    border: transparent;
+    background-color: #F2F2F2;
+    color: #666666;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+    float: left;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ffffff;
+    color: #e50515;
+}
+
+.iconos {
+    height: 40px;
+    width: auto;
+}
+
+.btnContedor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.btnVerde {
+    background: #1F97AE;
+    border: 1px solid transparent;
+    color: white;
+    border-radius: 3px;
+    font-size: 16px;
+    text-align: center;
+    height: 46px;
+    width: 168px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+/* Caracteristicas*/
+.caracteristicas {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.caracteristicas h1 {
+    color: black;
+    font-size: 1.8rem;
+}
+
+.caracteristicas h2 {
+    color: #e50515;
+    font-size: 2.3rem;
+}
+
+
+.caracteristicas p {
+    color: #666666;
+    font-size: 1.2rem;
+}
+
+.caracteristicas p strong {
+    color: #e50515;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.caracteristicas a {
+    text-decoration: none;
+    color: #1F97AE;
+}
+
+.flexRow {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.flexRow p {
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.caracteristica-lista {
+    width: 260px;
+    height: 400px;
+    display: inherit;
+    flex-direction: inherit;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.caracteristica-Sublista {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.minutoLibres {
+    padding-top: 40px;
+}
+
+.iconClaroMusica {
+    margin-top: 20px;
+    align-self: center;
+    height: 35px;
+    width: auto;
+}
+
+.lineaRoja{
+    height: 1px;
+    background-color: #e50515;
+}
+
+/* Fin Estilo Componente Plan*/
